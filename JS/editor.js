@@ -25,7 +25,7 @@ var inputImageURLS = [
 var inputs = document.getElementById("inputs")
 
 inputImageURLS.forEach(function(inputImageURL, index) {
-    var input = document.createElement("div")
+    var input = document.createElement("button")
     input.className = "gridElement"
     inputs.appendChild(input)
 
